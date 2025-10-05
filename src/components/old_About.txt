@@ -1,0 +1,53 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
+import { services } from '../constants';
+import { fadeIn, textVariant } from '../utils/motion';
+import { SectionWrapper } from '../hoc';
+
+const ServiceCard = ({ index, title, icon }) => {
+  return (
+    <motion.div
+      variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
+      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card">
+      <div
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+        className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+        <img src={icon} alt={title} className="w-18 h-18 object-contain" />
+        <h3 className="text-taupe font-beckman text-[15px] font-bold text-center">
+          {title}
+        </h3>
+      </div>
+    </motion.div>
+  );
+};
+
+const About = () => {
+  return (
+    <div className="-mt-[6rem] text-onyx">
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
+      </motion.div>
+
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-onyx font-beckman text-[18px] max-w-3xl leading-[30px]">
+        I'm an international master's student in Embedded and Cyber-Physical Systems at the University of California, Irvine. Like my degree suggests, I work across embedded systems, AI/ML, and cybersecurity. I see myself as someone who fixes problems early, often before people realize they need fixing. I strongly believe in a hands-on approach to learning. I'm currently working as a Cybersecurity intern at Tenet Healthcare. I'm seeking hands-on roles where I can use both technical and creative skills. I'm open to roles in cybersecurity, embedded systems, and AI/ML, with a main interest in healthcare tech. I believe in the potential of technology to improve lives.
+
+      </motion.p>
+
+      <div className="mt-20 flex flex-wrap gap-10">
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default SectionWrapper(About, 'about');
