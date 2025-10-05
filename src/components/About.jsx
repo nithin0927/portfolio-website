@@ -50,8 +50,7 @@ const About = () => {
           realize they need fixing—and I strongly believe in a hands-on approach
           to learning. I’m currently a Cybersecurity Intern at Tenet Healthcare.
           I’m seeking hands-on roles where I can use both technical and creative
-          skills. I’m open to cybersecurity, embedded systems, and AI/ML roles,
-          with a primary interest in healthcare tech. I believe in the potential
+          skills. I’m open to cybersecurity, embedded systems, and AI/ML roles and I firmly believe in the potential
           of technology to improve lives.
         </motion.p>
 
