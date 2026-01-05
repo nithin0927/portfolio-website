@@ -69,7 +69,7 @@ const Navbar = () => {
                   key={nav.id}
                   className="text-eerieBlack hover:text-taupe text-[16px] font-medium font-mova uppercase tracking-[3px]"
                 >
-                  <a href="/Resume_YegnaNithin.pdf" download className="flex items-center gap-2">
+                  <a href="/Resume_YegnaNithin_2026.pdf" download className="flex items-center gap-2">
                     {nav.title}
                     <img src={download} alt="download" className="w-[18px] h-[18px] object-contain" />
                   </a>
@@ -131,7 +131,7 @@ const Navbar = () => {
                         className="text-eerieBlack text-[36px] font-bold font-arenq uppercase tracking-[1px]"
                         onClick={() => setToggle(false)}
                       >
-                        <a href="/Resume_YegnaNithin.pdf" download className="flex items-center gap-3">
+                        <a href="/Resume_YegnaNithin_2026.pdf" download className="flex items-center gap-3">
                           {nav.title}
                           <img src={download} alt="download" className="w-[28px] h-[28px]" />
                         </a>

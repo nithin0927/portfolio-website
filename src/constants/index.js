@@ -117,14 +117,14 @@ const experiences = [
     company_name: "Synaptics Inc / UC Irvine",
     icon: synaptics,
     iconBg: "#333333",
-    date: "Mar 2025 – Present",
+    date: "Mar 2025 – Dec 2025",
   },
   {
     title: "Cybersecurity Intern – Incident Response",
     company_name: "Tenet Healthcare",
     icon: tenet,     // add your asset path
     iconBg: "#333333",
-    date: "Jun 2025 – Present",
+    date: "Jun 2025 – Dec 2025",
   },
 
 
@@ -133,7 +133,7 @@ const experiences = [
     company_name: "UC Irvine",
     icon: ai,
     iconBg: "#333333",
-    date: "Jul 2025 – Present",
+    date: "Jul 2025 – Dec 2025",
   },
 ];
 
@@ -156,7 +156,7 @@ const projects = [
     id: "project-swraunet",
     name: "SWRAU-Net, Atherosclerosis",
     description:
-      "Shearlet-Wavelet Residual Attention U-Net for carotid vessel wall segmentation on 3D MRI. Dice 0.77, sensitivity 0.83.",
+      "Shearlet-Wavelet Residual Attention U-Net for carotid vessel wall segmentation on 3D MRI. Dice 0.77, sensitivity 0.83. Published in SN Computer Science (Springer), 2026, DOI: 10.1007/s42979-025-04535-8",
     tags: [
       { name: "pytorch",          color: "blue-text-gradient" },
       { name: "medical-imaging",  color: "green-text-gradient" },
