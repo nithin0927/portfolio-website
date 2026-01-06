@@ -84,9 +84,14 @@ const Hero = () => {
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
-            className="absolute bottom-0 ml-[65vw] 
-            lg:ml-[75vw] md:ml-[40vw] xmd:ml-[40vw] 2xl:ml-[76vw]
-            sm:h-[50vh] md:h-[65vh] xl:h-[80vh] grayscale contrast-125"
+            className="absolute bottom-0 right-0
+            w-[200px] h-[250px] xs:w-[220px] xs:h-[280px]
+            sm:w-auto sm:h-[40vh] sm:ml-[50vw] sm:right-auto
+            md:h-[50vh] md:ml-[40vw]
+            lg:h-[60vh] lg:ml-[60vw]
+            xl:h-[70vh] xl:ml-[70vw]
+            2xl:h-[80vh] 2xl:ml-[76vw]
+            grayscale contrast-125 object-contain opacity-80 sm:opacity-100"
             src={me}
             alt="nithin"
           />
