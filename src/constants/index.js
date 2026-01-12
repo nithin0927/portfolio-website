@@ -196,17 +196,17 @@ const projects = [
   },
   {
     id: "project-wavedrom",
-    name: "WaveDrom + LLM timing tool",
+    name: "Capstone Project Industry sponsored by Synaptics Inc",
     description:
-      "Turns specs into timing or code diagrams with high accuracy. Useful for driver and GPIO work.",
+      "Built an AI-based embedded C driver generator for Synaptics' Astra.io platform that turns natural-language requests into compilable drivers, cutting development time by ~90%. Designed a hybrid LLM + template architecture with automated register-level validation to ensure hardware-correct code. Delivered in collaboration with Synaptics engineers and selected for internal AI conference presentation.",
     tags: [
       { name: "LLM",      color: "blue-text-gradient" },
-      { name: "wavedrom", color: "green-text-gradient" },
-      { name: "embedded", color: "pink-text-gradient" },
+      { name: "embedded", color: "green-text-gradient" },
+      { name: "AI",       color: "pink-text-gradient" },
     ],
     image: wavedrom,
     repo: "",
-    demo: "",
+    demo: "https://www.synaptics.com",
   },
 ];
 
