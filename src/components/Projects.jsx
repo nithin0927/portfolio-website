@@ -13,6 +13,8 @@ const ProjectCard = ({
   image,
   repo,
   demo,
+  sponsor,
+  sponsorLink,
   index,
   active,
   handleClick,
@@ -59,9 +61,23 @@ const ProjectCard = ({
             {name}
           </h2>
 
-          <p className="text-silver sm:text-[14px] text-[12px] max-w-3xl sm:leading-[24px] leading-[18px] font-poppins tracking-[1px]">
-            {description}
-          </p>
+          <div className="text-silver sm:text-[14px] text-[12px] max-w-3xl sm:leading-[24px] leading-[18px] font-poppins tracking-[1px]">
+            {sponsor && sponsorLink && (
+              <p className="mb-2">
+                Sponsored by{' '}
+                <a
+                  href={sponsorLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="text-french hover:text-taupe underline underline-offset-2 transition-colors"
+                >
+                  {sponsor}
+                </a>
+              </p>
+            )}
+            <p>{description}</p>
+          </div>
 
           {demo ? (
             <button

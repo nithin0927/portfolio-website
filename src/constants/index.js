@@ -196,7 +196,7 @@ const projects = [
   },
   {
     id: "project-wavedrom",
-    name: "Capstone Project Industry sponsored by Synaptics Inc",
+    name: "Capstone Project",
     description:
       "Built an AI-based embedded C driver generator for Synaptics' Astra.io platform that turns natural-language requests into compilable drivers, cutting development time by ~90%. Designed a hybrid LLM + template architecture with automated register-level validation to ensure hardware-correct code. Delivered in collaboration with Synaptics engineers and selected for internal AI conference presentation.",
     tags: [
@@ -206,7 +206,9 @@ const projects = [
     ],
     image: wavedrom,
     repo: "",
-    demo: "https://www.synaptics.com",
+    demo: "",
+    sponsor: "Synaptics",
+    sponsorLink: "https://www.synaptics.com",
   },
 ];
 
