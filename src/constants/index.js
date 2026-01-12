@@ -46,6 +46,7 @@ import {
 } from '../assets';
 
 import { icu, swraunet, patientmon, irchatbot, wavedrom } from '../assets';
+import { awsLogo, ciscoLogo, comptiaLogo } from '../assets';
 
 export const navLinks = [
   { id: 'about',    title: 'About' },
@@ -212,7 +213,41 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const certifications = [
+  {
+    id: "cert-aws",
+    name: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services (AWS)",
+    issuedDate: "Oct 2025",
+    expiryDate: "Oct 2028",
+    credentialId: "1c96147a-d7ee-47a5-a261-cfe354b7c608",
+    status: "active",
+    image: awsLogo,
+  },
+  {
+    id: "cert-cisco",
+    name: "Junior Cybersecurity Analyst Career Path",
+    issuer: "Cisco",
+    issuedDate: "Jun 2025",
+    expiryDate: null,
+    credentialId: null,
+    status: "active",
+    image: ciscoLogo,
+  },
+  {
+    id: "cert-comptia",
+    name: "CompTIA Security+",
+    issuer: "CompTIA",
+    issuedDate: null,
+    expiryDate: null,
+    credentialId: null,
+    status: "in-progress",
+    expectedCompletion: "Expected within a month",
+    image: comptiaLogo,
+  },
+];
+
+export { services, technologies, experiences, projects, certifications };
 
 
 export const blogs = [

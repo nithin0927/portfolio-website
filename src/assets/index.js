@@ -71,6 +71,11 @@ import kape from './tech/kape.png';
 import axiom from './tech/axiom.png';        // Magnet AXIOM
 import abnormal from './tech/abnormal.png';  // Abnormal Security
 
+// Certification logos
+import awsLogo from './tech/aws_logo.png';
+import ciscoLogo from './tech/cisco_logo.png';
+import comptiaLogo from './tech/comptia_logo.png';
+
 // NEW project thumbs
 import icu        from './projects/icu.png';
 import swraunet   from './projects/swraunet.png';
@@ -135,6 +140,7 @@ export {
   bash,
   pytorch, sklearn, numpy, opencv,
   crowdstrike, splunk, kape, axiom, abnormal,
+  awsLogo, ciscoLogo, comptiaLogo,
 
 };
 
