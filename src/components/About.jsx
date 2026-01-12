@@ -43,14 +43,13 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-5 max-w-9xl font-poppins text-[16px] sm:text-[18px] leading-9 text-jetGray"
         >
-          I’m an international master’s student in Embedded and Cyber-Physical
+          I'm an international master's student in Embedded and Cyber-Physical
           Systems at the University of California, Irvine. Like my degree
           suggests, I work across embedded systems, AI/ML, and cybersecurity. I
           see myself as someone who fixes problems early—often before people
           realize they need fixing—and I strongly believe in a hands-on approach
-          to learning. I’m currently a Cybersecurity Intern at Tenet Healthcare.
-          I’m seeking hands-on roles where I can use both technical and creative
-          skills. I’m open to cybersecurity, embedded systems, and AI/ML roles and I firmly believe in the potential
+          to learning. I worked as a Cybersecurity Intern at Tenet Healthcare, primarily in the Incident Response team while floating across the SOC and Vulnerability Management teams as well. I'm seeking hands-on roles where I can use both technical and creative
+          skills. I'm open to cybersecurity, embedded systems, and AI/ML roles and I firmly believe in the potential
           of technology to improve lives.
         </motion.p>
 
